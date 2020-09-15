@@ -61,5 +61,5 @@ Rails.application.configure do
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   #
   # add console main
-  config.web_console.whilelisted_ips = %w( 0.0.0.0/0 ::/0)
+  # config.web_console.whilelisted_ips = %w( 0.0.0.0/0 ::/0)
 end

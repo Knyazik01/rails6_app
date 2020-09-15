@@ -4,3 +4,17 @@
   Time to say
   <%= link_to "Goodbye", say_goodbye_path %>
 </p>
+
+<h2>Playtime</h2>
+<p>Addition: <%= 1 + 2 %></p>
+<p>Concatenation: <%= 'cow' + 'boy' %></p>
+<p>Time in one hour: <%= 1.hour.from_now.localtime %></p>
+<p><%= @files %></p>
+<div class="files">
+  <h3>Files in app/views/say/</h3>
+  <ul>
+  <% @files.each do |file| %>
+    <li><i>file name is:</i> "<%= file %>"</li>
+  <% end %>
+  </ul>
+</div>
